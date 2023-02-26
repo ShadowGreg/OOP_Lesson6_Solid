@@ -1,13 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SolidDip/SolidDip.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidLsp1/SolidLsp1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidLsp2/SolidLsp2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidOcp1/SolidOcp1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidSip1/SolidSip1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidSrp2/SolidSrp2.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid1Srp1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid1Srp1/src/solid/srp/SquareCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid1Srp1/src/solid/srp/SquareView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid2Srp2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/srp/models/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/srp/models/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/srp/models/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid3Ocp1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid3Ocp1/src/solid/ocp/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid5Lsp2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/AbstractOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/Orderable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid6Isp1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid6Isp1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/CreditCardable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/PhoneNumberable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/Webable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid7Dip/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid7Dip/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/DisplayReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid1Srp1/out/production/SolidSrp/solid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid1Srp1/out/production/SolidSrp/solid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid1Srp1/out/production/SolidSrp/solid/srp/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid1Srp1/out/production/SolidSrp/solid/srp/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid1Srp1/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid1Srp1/src/solid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid1Srp1/src/solid/srp/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid1Srp1/src/solid/srp/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid2Srp2/out/production/SolidSrp2/solid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid2Srp2/out/production/SolidSrp2/solid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid2Srp2/out/production/SolidSrp2/solid/srp/models/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid2Srp2/out/production/SolidSrp2/solid/srp/models/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid2Srp2/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid2Srp2/src/solid/srp/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/srp/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid3Ocp1/out/production/SolidOcp1/solid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid3Ocp1/out/production/SolidOcp1/solid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid3Ocp1/out/production/SolidOcp1/solid/ocp/RightTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid3Ocp1/out/production/SolidOcp1/solid/ocp/RightTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid3Ocp1/out/production/SolidOcp1/solid/ocp/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid3Ocp1/out/production/SolidOcp1/solid/ocp/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid3Ocp1/out/production/SolidOcp1/solid/ocp/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid3Ocp1/out/production/SolidOcp1/solid/ocp/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid3Ocp1/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid3Ocp1/src/solid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid3Ocp1/src/solid/ocp/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid3Ocp1/src/solid/ocp/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid3Ocp1/src/solid/ocp/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid3Ocp1/src/solid/ocp/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid3Ocp1/src/solid/ocp/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid3Ocp1/src/solid/ocp/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/OrderCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/OrderCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/lsp/FactoryOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/lsp/FactoryOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/lsp/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/lsp/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/lsp/OrderBonus.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/out/production/SolidLsp2/solid/lsp/OrderBonus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/OrderCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/OrderCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/FactoryOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/FactoryOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/OrderBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/OrderBonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid6Isp1/out/production/SolidSip1/solid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/out/production/SolidSip1/solid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid6Isp1/out/production/SolidSip1/solid/isp/InternetPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/out/production/SolidSip1/solid/isp/InternetPaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid6Isp1/out/production/SolidSip1/solid/isp/TerminalPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/out/production/SolidSip1/solid/isp/TerminalPaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid6Isp1/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/InternetPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/InternetPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/TerminalPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/TerminalPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid7Dip/out/production/SolidDip/solid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/out/production/SolidDip/solid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid7Dip/out/production/SolidDip/solid/dip/PrintReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/out/production/SolidDip/solid/dip/PrintReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid7Dip/out/production/SolidDip/solid/dip/Report.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/out/production/SolidDip/solid/dip/Report.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/PrintReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/PrintReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/Report.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +75,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2IXyjlpR5Wiiy0oCtofHfRCnxiw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +86,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/shado/OneDrive/Desktop/GB Java/Lesson012/Seminar/Solid1Srp1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,8 +103,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670342361684</updated>
+      <workItem from="1677394698157" duration="2776000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

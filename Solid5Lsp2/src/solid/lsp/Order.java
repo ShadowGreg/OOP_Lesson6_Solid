@@ -1,20 +1,14 @@
 package solid.lsp;
 
-public class Order {
-    private int price;
-    private int qnt;
+public class Order extends AbstractOrder implements Orderable {
+
 
     public Order(int qnt, int price) {
-        this.price = price;
-        this.qnt = qnt;
+        super(price, qnt);
     }
 
     public int getAmount() {
         return qnt * price;
     }
 
-    @Override
-    public String toString() {
-        return String.format("Количество = %d, Цена = %d", qnt, price);
-    }
 }

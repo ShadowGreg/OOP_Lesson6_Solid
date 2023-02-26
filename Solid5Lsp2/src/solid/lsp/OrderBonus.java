@@ -1,13 +1,15 @@
 package solid.lsp;
 
-public class OrderBonus extends Order{
+public class OrderBonus extends AbstractOrder implements Orderable {
 
     public OrderBonus(int qnt, int price) {
-        super(qnt, price);
+        super(price, qnt);
     }
 
     @Override
     public int getAmount() {
         return 0;
     }
+
+
 }
