@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HomeWorkRefactoring/HomeWorkRefactoring.iml" filepath="$PROJECT_DIR$/HomeWorkRefactoring/HomeWorkRefactoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoteProj/NoteProj.iml" filepath="$PROJECT_DIR$/NoteProj/NoteProj.iml" />
       <module fileurl="file://$PROJECT_DIR$/Solid.iml" filepath="$PROJECT_DIR$/Solid.iml" />
       <module fileurl="file://$PROJECT_DIR$/SolidDip/SolidDip.iml" filepath="$PROJECT_DIR$/SolidDip/SolidDip.iml" />
       <module fileurl="file://$PROJECT_DIR$/SolidLsp1/SolidLsp1.iml" filepath="$PROJECT_DIR$/SolidLsp1/SolidLsp1.iml" />
