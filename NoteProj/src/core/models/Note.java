@@ -1,35 +1,62 @@
 package core.models;
 
 import java.time.LocalDateTime;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Note extends BaseNote {
-    public Note(String head, String text) {
+    private LocalDateTime dateTime;
+    private String Id;
+    public Note(){
+        super("","");
+        this.Id="";
+        this.dateTime = LocalDateTime.now();
+    }
+
+    public Note(String Id, String head, LocalDateTime dateTime, String text) {
         super(head, text);
+        this.dateTime = dateTime;
+        this.Id = Id;
     }
 
-    public String getHead() {
-        return super.head;
+    public String getDateTime() {
+        return dateTime.toString();
     }
 
-    @Override
-    String generateID() {
-        return String.valueOf(new AtomicInteger().incrementAndGet());
+    public void setDateTime(LocalDateTime dateTime) {
+        this.dateTime = dateTime;
     }
 
-    @Override
-    LocalDateTime setTimeDate() {
-        return LocalDateTime.now();
+    public String getId() {
+        return Id;
+    }
+
+    public void setId(String id) {
+        Id = id;
     }
 
     @Override
     public String toString() {
+        int endSubString = 100;
         return String.format(
                 "Note Head: \n" +
-                        super.head +
+                        super.head +"\n"+
                         "Text: \n" +
-                        super.text + "\n" +
-                        "Date: " + super.dateTime
+                        getBriefText(endSubString) + "\n" +
+                        "Date: " + dateTime +"\n"+
+                        "Id: " + Id + "\n"
         );
+    }
+
+    private String getBriefText(int maxSize) {
+        int startSubString = 0;
+        if (super.text.length() > maxSize)
+            return super.text.substring(startSubString, maxSize);
+        else {
+            return super.text;
+        }
+    }
+
+    @Override
+    public BaseNote clearFields() {
+        return new Note("","",LocalDateTime.now(),"");
     }
 }

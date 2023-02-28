@@ -1,4 +1,4 @@
-package views;
+package viewsV00;
 
 public enum Commands {
     READ,
@@ -6,5 +6,6 @@ public enum Commands {
     UPDATE,
     LIST,
     DELETE,
+    HELP,
     EXIT
 }

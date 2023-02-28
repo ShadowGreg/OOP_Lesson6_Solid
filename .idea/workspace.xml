@@ -4,30 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="seminar done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkRefactoring/HomeWorkRefactoring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkRefactoring/src/Abstract/BaseUserWithReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkRefactoring/src/Abstract/Reportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkRefactoring/src/Abstract/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkRefactoring/src/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkRefactoring/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkRefactoring/src/core/Persister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkRefactoring/src/core/ThisUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/NoteProj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/NoteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/NoteProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/models/BaseNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/models/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/views/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/views/ViewNoteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solid4Lsp1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="ann new version of View">
+      <change afterPath="$PROJECT_DIR$/NoteProj/base.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/controllers/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/controllers/TextVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/FileOperationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/RepositoryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/models/NoteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/models/extensions/DateTimeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/models/extensions/IDInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV00/ViewNoteBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/StandardOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/CommandsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/Performed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/deleteNotes/DeleteNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/deleteNotes/DeleteNotesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/help/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/help/HelpFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/listNotes/ListNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/listNotes/ListNotesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/noteCreater/NoteCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/noteCreater/NoteCreatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/readNote/ReadNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/readNote/ReadNoteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/updateNote/UpdateNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/updateNote/UpdateNoteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/controllers/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/controllers/TextVariable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/FileOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/FileOperationImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/RepositoryFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/BaseNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/NoteMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/extensions/DateTimeInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/extensions/IDInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/views/Commands.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/views/ViewNoteBook$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/views/ViewNoteBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/StandardOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/View.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/CommandsFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/Performed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/help/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/help/HelpFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/listNotes/ListNotes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/listNotes/ListNotesFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/NoteBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/NoteProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/Processor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/models/BaseNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/core/models/BaseNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/models/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/core/models/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/views/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/viewsV00/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/views/ViewNoteBook.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +102,35 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shado\OneDrive\Desktop\GB Java\Lesson012\Seminar\HomeWorkRefactoring\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shado\OneDrive\Desktop\GB Java\Lesson012\Seminar\NoteProj\src\views" />
+      <recent name="C:\Users\shado\OneDrive\Desktop\GB Java\Lesson012\Seminar" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="core.infrastructure" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Abstract" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="NoteProj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HomeWorkRefactoring" />
@@ -86,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -98,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670342361684</updated>
-      <workItem from="1677394698157" duration="10080000" />
+      <workItem from="1677394698157" duration="51097000" />
     </task>
     <task id="LOCAL-00001" summary="seminar done">
       <created>1677406139984</created>
@@ -107,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677406139984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework done">
+      <created>1677413797023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677413797023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="homework done">
+      <created>1677413811065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677413811065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +195,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="seminar done" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar done" />
+    <MESSAGE value="homework done" />
+    <MESSAGE value="ann new version of View" />
+    <option name="LAST_COMMIT_MESSAGE" value="ann new version of View" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,33 +1,39 @@
 package core.models;
 
-import java.time.LocalDateTime;
+import core.models.extensions.DateTimeInterface;
+import core.models.extensions.IDInterface;
 
-public abstract class BaseNote {
-    protected LocalDateTime dateTime;
-    protected String ID;
+public abstract class BaseNote implements IDInterface, DateTimeInterface {
     protected String head;
     protected String text;
 
     public BaseNote(String head, String text) {
         this.head = head;
         this.text = text;
-        this.ID = generateID();
-        this.dateTime = setTimeDate();
     }
 
-    abstract String generateID();
 
-    abstract LocalDateTime setTimeDate();
 
     public String getHead() {
         return head;
     }
 
-    public String getBody() {
-        return String.format(
-                "Text: \n"
-                        + text + "\n" +
-                        "Date: " + dateTime
-        );
+    public void setHead(String head) {
+        this.head = head;
     }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return head == ((BaseNote) obj).getHead() && text == ((BaseNote) obj).getText();
+    }
+
+    public abstract BaseNote clearFields();
 }
