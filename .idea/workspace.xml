@@ -5,67 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="ann new version of View">
-      <change afterPath="$PROJECT_DIR$/NoteProj/base.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/controllers/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/controllers/TextVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/FileOperationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/RepositoryFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/models/NoteMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/models/extensions/DateTimeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/core/models/extensions/IDInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV00/ViewNoteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/StandardOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/CommandsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/Performed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/deleteNotes/DeleteNotes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/deleteNotes/DeleteNotesFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/help/Help.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/help/HelpFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/listNotes/ListNotes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/listNotes/ListNotesFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/noteCreater/NoteCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/noteCreater/NoteCreatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/readNote/ReadNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/readNote/ReadNoteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/updateNote/UpdateNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/commandsClass/vieCommands/updateNote/UpdateNoteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/controllers/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/controllers/TextVariable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/Config.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/FileOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/FileOperationImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/infrastructure/RepositoryFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/BaseNote.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/Note.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/NoteMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/extensions/DateTimeInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/extensions/IDInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/views/Commands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/views/ViewNoteBook$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/views/ViewNoteBook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/StandardOperations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/View.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/CommandsFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/Performed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/help/Help.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/help/HelpFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/listNotes/ListNotes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/listNotes/ListNotesFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/NoteBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/NoteProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/infrastructure/Processor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/models/BaseNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/core/models/BaseNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/core/models/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/core/models/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/views/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/viewsV00/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/views/ViewNoteBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/base.db" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/base.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteProj/src/viewsV01/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/controllers/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/core/models/BaseNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/BaseNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/core/models/NoteMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/NoteMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/views/Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/views/ViewNoteBook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/views/ViewNoteBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/StandardOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/StandardOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/Performed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/Performed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/listNotes/ListNotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/listNotes/ListNotes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670342361684</updated>
-      <workItem from="1677394698157" duration="51097000" />
+      <workItem from="1677394698157" duration="52921000" />
     </task>
     <task id="LOCAL-00001" summary="seminar done">
       <created>1677406139984</created>
@@ -176,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677413811065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ann new version of View">
+      <created>1677586891866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677586891866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

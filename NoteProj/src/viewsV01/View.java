@@ -21,12 +21,16 @@ public class View<T1 extends Controller> {
 
 
     public void run() throws Exception {
-        String command ="";
+        String command = "";
         while (!command.equals("EXIT")) {
-            command = StandardOperations.prompt("Введите команду (для спраки введите help): ");
-            System.out.println();
-            Performed commandsFactory = createCommandsByName(command.toUpperCase());
-            commandsFactory.execute();
+            try {
+                command = StandardOperations.prompt("Введите команду (для спраки введите help): ");
+                System.out.println();
+                Performed commandsFactory = createCommandsByName(command.toUpperCase());
+                commandsFactory.execute();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
         }
     }
 
