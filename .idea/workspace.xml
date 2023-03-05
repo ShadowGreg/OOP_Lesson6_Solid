@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="ann new version of View">
+    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="поправил в новом интерефейсе обработку ошибок в цикле вызова команды">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/base.db" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/base.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProj/src/viewsV01/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProj/src/viewsV01/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/controllers/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/core/models/BaseNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/BaseNote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/core/models/NoteMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/core/models/NoteMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/views/Commands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/views/ViewNoteBook$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/views/ViewNoteBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/StandardOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/StandardOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/Performed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/Performed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/listNotes/ListNotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NoteProj/viewsV01/commandsClass/vieCommands/listNotes/ListNotes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +38,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/shado/OneDrive/Desktop/GB Java/Lesson012/Seminar/HomeWorkRefactoring/src",
+    "last_opened_file_path": "C:/Users/shado/OneDrive/Desktop/GB Java/Lesson013/Seminar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670342361684</updated>
-      <workItem from="1677394698157" duration="52921000" />
+      <workItem from="1677394698157" duration="55382000" />
     </task>
     <task id="LOCAL-00001" summary="seminar done">
       <created>1677406139984</created>
@@ -136,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677586891866</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="поправил в новом интерефейсе обработку ошибок в цикле вызова команды">
+      <created>1677642384533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677642384533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +151,8 @@
     <MESSAGE value="seminar done" />
     <MESSAGE value="homework done" />
     <MESSAGE value="ann new version of View" />
-    <option name="LAST_COMMIT_MESSAGE" value="ann new version of View" />
+    <MESSAGE value="поправил в новом интерефейсе обработку ошибок в цикле вызова команды" />
+    <option name="LAST_COMMIT_MESSAGE" value="поправил в новом интерефейсе обработку ошибок в цикле вызова команды" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

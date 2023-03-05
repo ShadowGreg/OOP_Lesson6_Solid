@@ -15,8 +15,8 @@ public class View<T1 extends Controller> {
     public static BaseNote tempNote;
 
     public View(T1 noteController, BaseNote tempNote) {
-        View.noteController = noteController;
-        View.tempNote = tempNote;
+        viewsV01.View.noteController = noteController;
+        viewsV01.View.tempNote = tempNote;
     }
 
 

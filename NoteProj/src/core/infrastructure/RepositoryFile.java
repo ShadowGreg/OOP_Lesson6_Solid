@@ -8,9 +8,9 @@ import java.util.List;
 
 public class RepositoryFile implements Repository{
 
-    private NoteMapper mapper;
+    private final NoteMapper mapper;
 
-    private FileOperation fileOperation;
+    private final FileOperation fileOperation;
 
     public RepositoryFile(NoteMapper mapper, FileOperation fileOperation) {
         this.mapper = mapper;

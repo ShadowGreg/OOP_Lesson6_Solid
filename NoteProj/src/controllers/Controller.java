@@ -1,6 +1,6 @@
 package controllers;
 
-import core.infrastructure.Config;
+import viewsV01.Config;
 import core.models.NoteMapper;
 import core.infrastructure.FileOperationImpl;
 import core.models.BaseNote;

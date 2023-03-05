@@ -12,8 +12,6 @@ public abstract class BaseNote implements IDInterface, DateTimeInterface {
         this.text = text;
     }
 
-
-
     public String getHead() {
         return head;
     }
